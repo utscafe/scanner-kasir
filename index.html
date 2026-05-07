@@ -141,10 +141,11 @@ Html5Qrcode.getCameras()
 
       html5QrCode.stop();
 
-      window.location.href =
+      window.location.replace(
         APP_URL +
         "?page=kasir&sessionId=" +
-        sessionId;
+        sessionId
+      );
 
     },
 
